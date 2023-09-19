@@ -1,0 +1,66 @@
+#heroPreviewComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../assets/images/background.png");
+    position: relative;
+
+
+    #professionalSummary{
+        text-align: center;
+        width: 45%;
+        height: 33.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1{
+            text-transform: uppercase;
+            font-size: 64.5px;
+            line-height: 92px;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 23px;
+            line-height: 37px;
+
+            .highlights{
+                color: #288EEC;
+            }
+        }
+
+        #buttons{
+            
+
+            Button{
+                background-color: #288EEC;
+                color: #FFFFFF;
+                text-transform: uppercase;
+                font-size: 21px;
+                font-weight: 550;
+                line-height: 31px;
+                padding: 10px 60px;
+                margin: 0 15px;
+            }
+
+            #cv{
+                background-color: #4DB560;
+            }
+        }
+    }
+
+    #contactLinks{
+        position: absolute;
+        left: 0;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 8px rgb(0 0 0 / 0.2);
+
+        img{
+            margin: 20px 14px;
+            width: 35px;
+            display: block;
+            cursor: pointer;
+        }
+    }
+}

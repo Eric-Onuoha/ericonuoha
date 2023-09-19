@@ -1,0 +1,126 @@
+#navigationPreviewComponent{
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.2);
+    height: 95px;
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 22px;
+    text-transform: uppercase;
+    display: flex;
+
+    #potrait{
+        width: 60px;
+        // border: 1px solid #0F52BA;
+        border-radius: 50%;
+    }
+
+    #mobilePotrait{
+        display: none;
+    }
+
+    #laptopPotrait{
+        display: flex;
+        align-items: center;
+
+        #potraitIntro{
+            margin: 1px 0 0 20px;
+            font-size: 19px;
+
+            &:hover{
+                color: #288EEC;
+            }
+        }
+    }
+
+    .hamburgerMenu img{
+        display: none;
+    }
+    
+    .navItemsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 50px;
+
+        .navItem{
+            color: #333333;
+            cursor: pointer;
+            margin: 20px 20px 0 20px;
+
+            &:hover{
+                color: #288EEC;
+            }
+        }
+    }
+
+    #navContainer{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #navToggle{
+        position: relative;
+        right: 0;
+    }
+}
+
+@media(max-width: 1100px){
+    #navigationPreviewComponent{
+
+        #potrait{
+            width: 90px;
+        }
+
+        #mobilePotrait{
+            display: block;
+        }
+
+        #laptopPotrait{
+            display: none;
+        }
+
+        #navItemsMobile{
+            display: none;
+        }
+
+        #navModal{
+            top: 0;
+            position: absolute;
+            height: 100vh;
+            width: 55vw;
+            left: 0;
+            background-color: rgba(0,0,0,0.6);
+            z-index: 6;
+        }
+
+        .navItemsContainer{
+            position: absolute;
+            display: block;
+            top: 85px;
+            right: 0;
+            height: 100vh;
+            width: 50vw;
+            background-color: #FFFFFF;
+            text-align: right;
+
+            .navItem{
+                border-bottom: 1px solid #F5F5F5;
+                padding-right: 10px;
+                
+            }
+        }
+
+        .hamburgerMenu img{
+            display: block;
+            height: 2em;
+            margin-right: 35px;
+            position: relative;
+            right: -28px;
+            top: 0;
+        }
+        
+        // #navItemsMobile{
+        //     display: none;
+        // }
+    }
+}

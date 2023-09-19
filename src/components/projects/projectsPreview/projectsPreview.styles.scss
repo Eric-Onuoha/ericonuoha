@@ -1,0 +1,71 @@
+#projectsPreviewComponent{
+    background-image: url("../../../assets/images/background1.jpg");
+    // margin: 0 5%;
+
+    #projects{
+        // width: 65%;
+        height: inherit;
+
+        #projectsIntro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 30px;
+
+            #underline{
+                width: 40px;
+                border: 3px solid #288EEC;
+                border-radius: 16.5%;
+                margin: 20px 0;
+            }
+
+            h1{
+                font-size: 42px;
+                line-height: 60px;
+                font-weight: 700;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    #projectsContent{
+        margin-top: 40px;
+        text-align: center;
+
+        .display{
+            margin-bottom: 420px;
+
+            h4{
+                font-size: 22px;
+                line-height: 42px;
+                font-weight: 600;
+                margin: 0;
+            }
+
+            p{
+                font-size: 16px;
+                line-height: 22px;
+                font-style: italic;
+                margin-bottom: 5px;
+            }
+
+            #viewProjects{
+                position: relative;
+
+                .projectPreview{
+                    height: 350px;
+                    position: absolute;
+                    left: 182px;
+                }
+        
+                .projectDisplay{
+                    height: 240px;
+                    width: 407px;
+                    position: absolute;
+                    top: 4px;
+                    left: 254px;
+                }
+            }
+        }
+    }
+}
