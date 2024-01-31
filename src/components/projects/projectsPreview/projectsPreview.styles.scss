@@ -1,5 +1,5 @@
 #projectsPreviewComponent{
-    background-image: url("../../../assets/images/background1.jpg");
+    // background-image: url("../../../assets/images/background1.jpg");
     // margin: 0 5%;
 
     #projects{
@@ -29,42 +29,28 @@
     }
 
     #projectsContent{
-        margin-top: 40px;
+        margin-top: 20px;
         text-align: center;
 
-        .display{
-            margin-bottom: 420px;
+        .viewProjects{
+            margin-bottom: 55px;
 
             h4{
                 font-size: 22px;
-                line-height: 42px;
+                line-height: 20px;
                 font-weight: 600;
-                margin: 0;
+                margin: 0 0 1px 0;
             }
-
+            
             p{
-                font-size: 16px;
-                line-height: 22px;
-                font-style: italic;
-                margin-bottom: 5px;
+                margin: 0 0 1px 0;
             }
 
-            #viewProjects{
-                position: relative;
-
-                .projectPreview{
-                    height: 350px;
-                    position: absolute;
-                    left: 182px;
-                }
-        
-                .projectDisplay{
-                    height: 240px;
-                    width: 407px;
-                    position: absolute;
-                    top: 4px;
-                    left: 254px;
-                }
+            img{
+                height: 260px;
+                width: 450px;
+                border: 2px solid black;
+                cursor: pointer;
             }
         }
     }

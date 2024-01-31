@@ -13,7 +13,7 @@ const HeroPreview = () => {
         <Col id="heroPreviewComponent" style={{height: screenHeight+"px"}}>
             <div id="professionalSummary">
                 <h1>Hi, I'm Eric Onuoha</h1>
-                <p>An experienced <span className="highlights">Software Engineer</span> adept at creating user-friendly web applications and harnessing <span className="highlights">AI</span> technologies to drive innovative solutions.</p>
+                <p>An experienced <span className="highlights">Software Engineer</span> adept at creating user-friendly web applications. I love <span className="highlights">Data</span> and dabble into <span className="highlights">Intelligent Applications</span></p>
                 <div id="buttons">
                     <a href="https://drive.google.com/file/d/1RFBqJPtPbpSUHzk8ouS25DEU2Eycsm0o/view?usp=sharing" target="_blank"><Button id="cv">View CV</Button></a>
                     <Button id="projects">Projects</Button>

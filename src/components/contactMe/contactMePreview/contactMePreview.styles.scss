@@ -1,0 +1,106 @@
+#contactMeComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    padding: 100px 0;
+
+    #contactIntro{
+        text-align: center;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #underline{
+            width: 40px;
+            border: 3px solid #288EEC;
+            border-radius: 16.5%;
+            margin: 20px 0;
+        }
+
+        h1{
+            font-size: 42px;
+            line-height: 60px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+    }
+
+    #contactForm{
+        width: inherit;
+
+        #sendersDetails{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 60px;
+            width: inherit;
+
+            div{
+                width: inherit;
+            }
+
+            div:first-of-type{
+                margin-right: 100px;
+            }
+
+            label{
+                display: block;
+                margin: 0 0 10px 0;
+                color: #999999;
+            }
+
+            input{
+                width: 100%;
+                height: 35px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #288EEC;
+                padding-bottom: 25px;
+                font-size: 20px;
+
+                &::placeholder{
+                    font-size: 20px;
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        #message{
+            width: inherit;
+
+            label{
+                display: block;
+                margin: 0 0 10px 0;
+                color: #999999;
+            }
+
+            textarea{
+                width: 100%;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #288EEC;
+                resize: unset;
+                font-size: 20px;
+
+                &::placeholder{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        button{
+            background-color: #288EEC;
+            border: none;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            font-size: 19px;
+            font-weight: 550;
+            padding: 12px 60px;
+            display: block;
+            margin: 60px auto;
+            cursor: pointer;
+        }
+
+    }
+}

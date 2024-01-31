@@ -9,7 +9,7 @@ const SkillsPreview = () => {
         <Col id="skillsPreviewComponent" style={{height: (screenHeight - 90)+"px"}}>
             <Col id="skills">
                 <Row id="skillsIntro">
-                    <h1>MY SKILLS</h1>
+                    <h1>My Skills</h1>
                     <p id="underline"></p>
                 </Row>
                 <Row id="skillsContent">
@@ -31,7 +31,7 @@ const SkillsPreview = () => {
                         </div>
                         {/* <p>I'm an accomplished <span className="highlights">Software Engineer</span> adept at creating user-friendly web applications and harnessing <span className="highlights">AI</span> technologies to drive innovative solutions.</p> */}
                         
-                        <p>Whether it's a full-time collaboration or a freelance engagement, I'm keen to explore opportunities that match my skills and experience. Please feel free to reach out.</p>
+                        <p>Whether it's a full-time collaboration or a freelance engagement, I'm keen to explore opportunities that match my skills and experience. Feel free to reach out!</p>
 
                         <div id="contactMe">
                             <Button>Contact Me</Button>
